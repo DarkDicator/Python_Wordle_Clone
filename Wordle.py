@@ -12,7 +12,6 @@ for i in range(6):
     print("".join(display))
     display = ["_", "_", "_", "_", "_"]
     answer = ""
-    print(word)
     while answer + "\n" not in words:
         answer = input("Input your guess: ")
     if answer == word:
